@@ -20,7 +20,7 @@ title                    : "Seungho Nah's Home"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seungho Nah"
-description              : "An amazing website."
+description              : "Economic Insight"
 url                      : "https://shnah1.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "shnah1/shnah1.github.io"
@@ -218,7 +218,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
