@@ -10,9 +10,9 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus"# false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -73,9 +73,9 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :google4f1bbb630124e4a2.html
+google_site_verification :"google4f1bbb630124e4a2.html"
 bing_site_verification   :
-naver_site_verification  :naver47ccac04e2edff27ca7a320da498567d.html
+naver_site_verification  :"naver47ccac04e2edff27ca7a320da498567d.html"
 yandex_site_verification :
 baidu_site_verification  :
 
