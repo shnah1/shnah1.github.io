@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-  remote_theme           : "mmistakes/minimal-mistakes"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -73,9 +73,9 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "google4f1bbb630124e4a2.html"
+google_site_verification : #"google4f1bbb630124e4a2.html"
 bing_site_verification   :
-naver_site_verification  : "naver47ccac04e2edff27ca7a320da498567d.html"
+naver_site_verification  : #"naver47ccac04e2edff27ca7a320da498567d.html"
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Seungho Nah"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/files/picture/IMG_5735.HEIC"
   bio              : "I am an economist. My main fields are macroeconomics and econometrics. I am interested in business cycles, economic development, and Korean economic history. "
   location         : "55 Namdaemun-ro Jung-gu Seoul South Korea"
   email            : 
@@ -115,7 +115,7 @@ author:
       url: "mailto:shnah1@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://shnah1.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -256,7 +256,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
+  https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
 #     - categories
