@@ -117,7 +117,7 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://shnah1.github.io"
- - label: "Bank of Korea"
+   - label: "Bank of Korea"
       icon: "fas fa-fw fa-link"
       url: "https://www.bok.or.kr/portal/main/main.do"
     - label: "Twitter"
