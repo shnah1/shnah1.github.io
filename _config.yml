@@ -92,7 +92,8 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : "The Bank of Korea"
-  links: # An array of links to social media profiles
+  links: "https://www.bok.or.kr"
+# An array of links to social media profiles
 
 # Analytics
 analytics:
