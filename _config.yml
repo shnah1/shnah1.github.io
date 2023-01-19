@@ -92,8 +92,7 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : #
-  links: 
-# An array of links to social media profiles
+  links:# An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -117,7 +116,7 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://shnah1.github.io"
-   - label: "Bank of Korea"
+    - label: "Bank of Korea"
       icon: "fas fa-fw fa-link"
       url: "https://www.bok.or.kr"
     - label: "Twitter"
