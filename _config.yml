@@ -119,7 +119,7 @@ author:
       url: "https://shnah1.github.io"
    - label: "Bank of Korea"
       icon: "fas fa-fw fa-link"
-      url: "https://www.bok.or.kr/portal/main/main.do"
+      url: "https://www.bok.or.kr"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
