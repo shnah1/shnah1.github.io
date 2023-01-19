@@ -91,8 +91,8 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : #
-  links:# An array of links to social media profiles
+  name                   : "Bank of Korea" #
+  links: # An array of links to social media profiles
 
 # Analytics
 analytics:
