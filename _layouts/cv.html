@@ -6,61 +6,48 @@ classes: wide
 {{ content }}
 
 <style>
-/* Global styles for the body and fonts */
-body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  line-height: 1.6;
-  color: #333;
+.cv-container {
+  max-width: 900px;
+  margin: auto;
 }
 
-/* Style for section headings */
-h5 {
-  color: #0056b3; /* A professional blue color */
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  color: #0056b3;
   border-bottom: 2px solid #0056b3;
-  padding-bottom: 5px;
-  margin-top: 30px;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
-/* Style for all jtitle divs */
 .jtitle {
-  display: block;
-  margin: 5px 0;
-  font-size: 14px;
-  color: #555;
-  padding-left: 10px;
+  margin-bottom: 15px;
+  padding-left: 5px;
 }
 
-/* Style for the underlines (separators) */
+/* 경력 내 세부 직무 스타일 */
+.jtitle p {
+  margin: 4px 0 4px 15px; /* 들여쓰기 추가 */
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* 구분선 제거 또는 미세화 */
 .jtitle:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  background: #ccc;
-  margin: 10px 0;
+  content: none; /* 기존의 투박한 구분선 제거 제안 */
 }
 
-/* A custom class to make certain text bolder */
-.bold-text {
-  font-weight: bold;
-  color: #000;
-}
-
-/* Style for list items within a jtitle div */
-.jtitle ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.jtitle ul li {
-    margin-bottom: 5px;
+.jtitle + .jtitle {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
 }
 </style>
 
-<style>
-  /* Paste the CSS code from above here */
-</style>
+
 
 <div class="cv-container">
   <div class="section">
